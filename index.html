@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Magic Cakes</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" href="./imgs/logo.jpeg" type="image/icon">
+</head>
+<body>
+    <!-- Cabeçalho com logo e menu -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Início</a></li>
+                <li><a href="#produtos">Produtos</a></li>
+                <li><a href="#c">Contatos</a></li>
+                <li><a href="#sobre">Sobre Nós</a></li>
+                <li><a href="#contato">Fale Conosco</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Seção de Banner -->
+    <section class="banner" id="home">
+        <div class="imb img1">
+            <div class="a">
+                <b><p class="aa">Magic Cakes</p></b>
+                <p class="aaa">Onde cada cupcake conta uma história!</p>
+            </div>
+        </div>
+
+        <a href="#produtos" class="cta-btn">Ver Produtos</a>
+    </section>
+
+    <!-- Seção de Produtos -->
+    <section id="produtos" class="produtos">
+        <b><p class="b">Nossas Opções</p></b>
+        <div class="grid-produtos">
+            <a href="./bebidas.html" class="link"><div class="produto pro">
+                <img src="./imgs/3.webp" alt="Doce 1">
+                <b><p class="bb">Bebidas Frias</p></b>
+                <p class="bbb">Varias opções de bebidas frias, uma delícia!</p>
+                <p class="preco">R$ 6,00</p>
+                <button>Comprar</button>
+            </div></a>
+            <a href="./cupcakes.html" class="link"><div class="produto pro">
+                <img src="./imgs/2.avif" alt="Doce 2">
+                <b><p class="bb">CupCakes</p></b>
+                <p class="bbb">Experimente nossas diversas opções de deliciosos cupcakes</p>
+                <p class="preco">R$ 8,50</p>
+                <button>Comprar</button>
+            </div></a>
+            <a href="./bebidas_q.html" class="link"><div class="produto pro">
+                <img src="./imgs/4.webp" alt="Doce 3">
+                <b><p class="bb">Bebidas Quentes</p></b>
+                <p class="bbb">Temos também opções de bebidas quentes</p>
+                <p class="preco">R$ 6,50</p>
+                <button>Comprar</button>
+            </div></a>
+            <!-- 
+            <div class="tema">
+                <img src="./imgs/5.jpg" alt="Doce 4" width="400px" class="i1">
+                <b><p class="bb">CupCake Tema do Mês</p></b>
+                <p class="bbb">Nesse mês das crianças o tema não poderia ser outro!</br> Venha com suas crianças para verem os CupCakes</br> com aparências e gostos incríveis</p>
+        
+            </div>-->
+        </div>
+        
+
+    </section>
+    
+
+    </br></br></br></br></br></br></br></br></br></br></br></br></br></br>
+    <!-- Contato -->
+    <section id="c">
+        <b><p class="b">Números para compra/encomenda:</p></b>
+        <img src="./imgs/icon1.png" width="50px" class="ci"><p class="c1">(11) 4002-8922</p>
+        <img src="./imgs/icon3.jpg" width="50px" class="ci2"><p class="c2">(11) 98765-4321</p>
+    </section>
+
+
+    <!-- Seção Sobre Nós -->
+    <section id="sobre">
+        <b><p class="b">Sobre Nós</p></b>
+        <p class="c">A Magic Cakes é uma confeitaria especializada em cupcakes doces e salgados, focada em criar momentos especiais com sabores criativos e únicos. Diferente das confeitarias tradicionais, a cada mês, lança cupcakes temáticos inspirados em datas comemorativas, como a Páscoa e o Natal. </p>
+    </section>
+
+    <!-- Seção Contato -->
+    <section id="contato" class="contato">
+        <b><p class="b ca">Fale Conosco</p></b>
+        <form action="#" class="cc">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required class="ccc">
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" required class="ccc">
+            <label for="mensagem">Mensagem:</label>
+            <textarea id="mensagem" name="mensagem" required class="cccc"></textarea>
+            <button type="submit" class="botao">Enviar</button>
+        </form>
+    </section>
+
+    <!-- Rodapé -->
+    <footer>
+        <p>&copy; 2024 Magic Cakes - Todos os direitos reservados</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
